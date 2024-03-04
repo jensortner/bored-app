@@ -19,7 +19,7 @@ function GetBored(props: GetBoredProps) {
     const { getNewActivity } = props;
     const [whatToDO, setWhatToDo] = useState<BoredFetch>()
     
-    useEffect(() =>{
+    useEffect(() => {
 
         fetch('https://www.boredapi.com/api/activity', {
             method: 'GET'
