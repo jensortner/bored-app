@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import './GetBored.css'
 
 type GetBoredProps = {
     getNewActivity: number;
